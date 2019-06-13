@@ -577,7 +577,7 @@ angular.module('app.controllers', ['socketService','pollService', 'ngResource','
             }
             for(let j =0;j<withdrawalTotals.length; j++){
                 // console.log(withdrawalTotals[j])
-                total += withdrawalTotals[j]
+                totalWithdrawn += withdrawalTotals[j]
             }
         })
         // console.log(totalWithdrawn)
