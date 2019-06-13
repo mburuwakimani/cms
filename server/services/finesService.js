@@ -6,8 +6,9 @@ exports.create = function (req, res, callback){
         fineCategory: req.body.fineCategory,
         fineAmount: req.body.fineAmount,
         comment: req.body.comment,
+        ChamaId: req.body.ChamaId,
         UserId: req.body.UserId,
-        ChamaId: req.body.ChamaId
+        email:req.body.email
     })
     .success(function (fine){
         if (callback){
